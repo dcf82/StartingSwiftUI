@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BF8FD62B1D0BB400618DCA /* ByeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF8FD52B1D0BB400618DCA /* ByeView.swift */; };
 		63C403232B16039C000983BC /* StartingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C403222B16039C000983BC /* StartingSwiftUIApp.swift */; };
 		63C403252B16039C000983BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C403242B16039C000983BC /* ContentView.swift */; };
 		63C403272B16039D000983BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C403262B16039D000983BC /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63BF8FD52B1D0BB400618DCA /* ByeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeView.swift; sourceTree = "<group>"; };
 		63C4031F2B16039C000983BC /* StartingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C403222B16039C000983BC /* StartingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingSwiftUIApp.swift; sourceTree = "<group>"; };
 		63C403242B16039C000983BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				63C403222B16039C000983BC /* StartingSwiftUIApp.swift */,
 				63C403242B16039C000983BC /* ContentView.swift */,
+				63BF8FD52B1D0BB400618DCA /* ByeView.swift */,
 				63C403262B16039D000983BC /* Assets.xcassets */,
 				63C403282B16039D000983BC /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BF8FD62B1D0BB400618DCA /* ByeView.swift in Sources */,
 				63C403252B16039C000983BC /* ContentView.swift in Sources */,
 				63C403232B16039C000983BC /* StartingSwiftUIApp.swift in Sources */,
 			);

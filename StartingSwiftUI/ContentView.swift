@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    private let familyInfo = try! AttributedString(markdown: "Hey Daniela & David Castillo Guzmán")
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+            Text(familyInfo)
+                .font(.system(size: 20, weight: .black, design: .serif))
+                .italic()
+                .multilineTextAlignment(.center)
+                .frame(width: 160)
+                .lineLimit(3)
+
+            ByeView()
         }
         .padding()
     }
@@ -22,3 +33,11 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+/*
+struct DemoPreview : PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+*/
